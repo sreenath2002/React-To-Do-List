@@ -1,0 +1,101 @@
+
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(172, 215, 174);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.addTask {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.list div {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.list h1 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.bt1, .bt2, .bt3 {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.bt1 {
+  background-color: #ff5e5e;
+  color: #fff;
+}
+
+.bt1:hover {
+  background-color: #ff3333;
+}
+
+.bt2 {
+  background-color: #71c171;
+  color: #fff;
+}
+
+.bt2:hover {
+  background-color: #4caf50;
+}
+
+.bt3 {
+  background-color: #4f8af0;
+  color: #fff;
+}
+
+.bt3:hover {
+  background-color: #357ae8;
+}
+
+.successMessage {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
